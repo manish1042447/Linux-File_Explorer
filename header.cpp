@@ -9,5 +9,7 @@
 #include <sys/ioctl.h>
 using namespace std;
 using namespace std::filesystem;
+string home;// will be used in directoryEntry cpp
+#include "fileOp.cpp"
 #include "DirectoryEntry.cpp"
 #endif 
